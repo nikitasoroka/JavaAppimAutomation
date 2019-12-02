@@ -3,7 +3,7 @@ import org.junit.Test;
 public class MainClass
 {
     @Test
-    public void myFirstTest()
+    public void getLocalNumber()
     {
 
     }
