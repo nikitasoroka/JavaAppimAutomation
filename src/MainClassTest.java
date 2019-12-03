@@ -1,14 +1,15 @@
 import org.junit.Assert;
 import org.junit.Test;
 
-public class MainClassTest extends MainClass
-{
+public class MainClassTest extends MainClass {
     @Test
-    public void testGetLocalNumber()
-    {
-        int expected = 14;
-        int actual = giveMeInt();
+    public void testGetClassNumber() {
+        int b = this.testedValue();
 
-        Assert.assertTrue("Returned number is not 14",actual == expected);
+        Assert.assertFalse("False. The class_number < 45", b < 45);
+    }
+
+    public int testedValue() {
+        return this.Class_number();
     }
 }

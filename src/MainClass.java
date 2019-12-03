@@ -1,16 +1,14 @@
 import org.junit.Test;
 
-public class MainClass
-{
+public class MainClass {
+    private int class_number = 20;
+
     @Test
-    public void getLocalNumber()
-    {
-        int a = this.giveMeInt();
-        System.out.println(a);
+    public void getClassNumber() {
+        int a = this.Class_number();
     }
 
-    public int giveMeInt()
-    {
-        return 14;
+    public int Class_number() {
+        return class_number;
     }
 }
