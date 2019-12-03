@@ -53,20 +53,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MainClassTest.testGetClassNumber">
+  <component name="RunManager" selected="JUnit.MainClassTest.testGetClassString">
     <configuration name="MainClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaAppiumAutomation" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainClass" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaAppiumAutomation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainClassTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,21 +73,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainClassTest.testGetLocalNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainClassTest.testGetClassString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaAppiumAutomation" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainClassTest" />
-      <option name="METHOD_NAME" value="testGetLocalNumber" />
+      <option name="METHOD_NAME" value="testGetClassString" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainClass.getClassNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainClass.abc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaAppiumAutomation" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainClass" />
-      <option name="METHOD_NAME" value="getClassNumber" />
+      <option name="METHOD_NAME" value="abc" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainClass.getClassString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaAppiumAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainClass" />
+      <option name="METHOD_NAME" value="getClassString" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainClassTest.testGetClassNumber" />
+        <item itemvalue="JUnit.MainClassTest.testGetClassString" />
+        <item itemvalue="JUnit.MainClass.abc" />
         <item itemvalue="JUnit.MainClass" />
-        <item itemvalue="JUnit.MainClass.getClassNumber" />
-        <item itemvalue="JUnit.MainClassTest.testGetLocalNumber" />
-        <item itemvalue="JUnit.MainClassTest" />
+        <item itemvalue="JUnit.MainClass.getClassString" />
+        <item itemvalue="JUnit.MainClassTest.testGetClassNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -130,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575282864722</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Final Test2 changes">
+      <created>1575373964281</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575373964282</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -148,7 +156,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Final Test1 changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final Test1 changes" />
+    <MESSAGE value="Final Test2 changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Test2 changes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575278207523">
